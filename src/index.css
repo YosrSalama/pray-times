@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Cairo:wght@200..1000&family=Jomhuria&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+   font-family: "Cairo", sans-serif;
+
+}
+html{
+  direction: rtl;
+}
+section{
+  background-image: url(./assets/image_1612507780_yZ85t5y1WziYCb54y5XNdOZNdvMD74TC9M9mPEWw.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+   font-family: "Cairo", sans-serif;
+   display: flex;
+   align-items: center;
+
+}
+section .container {
+  width: 650px;
+  max-width: 90%;
+  background-color: #332a224e;
+  padding: 30px 25px;
+  background: rgba(0,0,0,0.45);
+  border-radius: 10px;
+  border:1px solid #d7d7d74e;
+  margin: 0 auto;
+
+}
+
+section .top-sec{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #d7d7d74e;
+  margin-bottom: 40px;
+}
+section .top-sec select{
+  width: 250px;
+  border-radius: 5px;
+  outline: none;
+  background-color: #a54f3a;
+  padding: 2px 10px;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 10px;
+}
+section .top-sec h3{
+  font-size: 26px;
+  color: white;
+}
+.city{
+  width: 300px;
+}
+.date{
+  width: 250px;
+}
+.date h4{
+font-size: 26px;
+color: white;
+}
+.prayer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  background-color: #c0583e75;
+  margin-bottom: 25px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #d7d7d74e;
+}
+
+@media (max-width:450px) {
+  
+   .top-sec{
+    display: flex;
+    flex-direction: column;
+   }
+  .container{
+    max-width: 95%;
+  }
+}
